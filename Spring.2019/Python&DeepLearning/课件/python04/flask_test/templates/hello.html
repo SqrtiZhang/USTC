@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+
+{% if name == 'ustc' %}
+  <img src="https://www.ustc.edu.cn/_upload/tpl/00/76/118/template118/res/logo.svg"  alt="USTC" />
+{% endif %}
